@@ -1,3 +1,11 @@
+## 9.31.0
+
+- Local patched release for source-based use.
+- Fixed Windows/Linux desktop plugin target and symbol naming to match the `flutter_sound` package name.
+- Added iOS/macOS wrapper plugin classes matching the `pubspec.yaml` plugin class names.
+- Corrected the web `default_package` from `flauto_web` to `flutter_sound_web`.
+- Kept transitive package dependencies on published 9.30.0 artifacts for compatibility.
+
 ### 9.30.0
 
 - iOS : fixes the "onBufferUnderflow" bug ( [#1205](https://github.com/Canardoux/flutter_sound/issues/1205))

@@ -1,6 +1,6 @@
 name: flutter_sound
 description: "A complete api for audio playback and recording. Member of the `Tau` Family. Audio player, audio recorder. Pray for Ukraine."
-version: 9.30.0
+version: 9.31.0
 homepage: https://flutter-sound.canardoux.xyz/
 repository: https://github.com/canardoux/flutter_sound
 
@@ -79,7 +79,7 @@ flutter:
         #pluginClass: TaudioWeb
         #fileName: taudio_web.dart
       web:
-        default_package: flauto_web
+        default_package: flutter_sound_web
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
